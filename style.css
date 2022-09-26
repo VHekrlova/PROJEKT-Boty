@@ -4,6 +4,7 @@ html { box-sizing: border-box; }
 
 body {
     text-rendering: optimizeLegibility;
+    font-family: 'Rubik', sans-serif;
 }
 
 /*
@@ -15,9 +16,56 @@ body {
  zelena cara             #06d7c1
  oranzova                #f15f42
 
- PISMO
- Rubik - pouzite rezy pisma regular 400 a medium 500
- https://fonts.google.com/specimen/Rubik
 */
 
 /* ----- zde zacni psat vlastni css ----- */
+
+.kontejner {
+    display: flex;
+    width: 670px;
+    height: 440px;
+    margin: 0 auto;
+}
+
+.leva {
+    flex-basis: 50%;
+    color: #fff;
+    position: relative;
+    background-image: linear-gradient(180deg, #06d7c1 0%, #50cc49 100%);
+}
+
+.prava {
+    flex-basis: 50%;
+}
+
+.logo {
+    margin: 30px;
+}
+
+.tempo {
+    margin: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.bota {
+    position: absolute;
+    top: 140px;
+    left: -80px;
+}
+
+.cena {
+    font-size: 28px;
+    font-weight: 500;
+    position: absolute;
+    bottom:50px;
+    right: 30px;
+}
+
+.zaruka {
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+    bottom:30px;
+    right: 30px;
+}
